@@ -1,33 +1,42 @@
-# MERN Book Catalog
+📚 MERN Book Catalog
 
-A book catalog web application built using the MERN stack. Users can register, log in, browse books, search books, and manage the catalog.
+A full-stack Book Catalog web application built using the MERN stack. It allows users to create an account, log in securely, and manage a collection of books with features like searching, editing, deleting, and pagination.
 
-## Features
+🌐 Live Demo
+
+View Live Project
+
+✨ Features
 
 - User registration and login
-- Secure password hashing
-- JWT authentication
-- Add new books
-- Edit book details
+- Secure password hashing using bcryptjs
+- JWT-based authentication
+- Add new books to the catalog
+- Edit existing book details
 - Delete books
-- Search by book title or author
-- Pagination (5 books per page)
-- Protected routes
+- Search books by title or author
+- Pagination with 5 books per page
+- Protected frontend and backend routes
 - MongoDB database storage
 
-## Technologies Used
+🛠️ Technologies Used
+
+Frontend
 
 - React
 - Vite
+- Axios
+
+Backend
+
 - Node.js
 - Express.js
 - MongoDB
 - Mongoose
-- Axios
 - JSON Web Token (JWT)
 - bcryptjs
 
-## Book Information
+📖 Book Information
 
 Each book contains:
 
@@ -35,11 +44,22 @@ Each book contains:
 - Author
 - Publication Year
 
-## Project Structure
+📁 Project Structure
 
-- client – React frontend
-- server – Express backend
+MERN-BOOK-Catalog/
+│
+├── client/ # React frontend
+│
+├── server/ # Node.js and Express backend
+│
+└── README.md
 
-## Author
+🚀 Deployment
+
+- Frontend: Render Static Site
+- Backend: Render Web Service
+- Database: MongoDB Atlas
+
+👩‍💻 Author
 
 Heena Yadav
